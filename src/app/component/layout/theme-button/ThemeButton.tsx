@@ -7,7 +7,7 @@ interface buttonProp{
 const ThemeButton = ({text,buttonClassName,parentClassName,onClick}:buttonProp) =>{
     return(
         <div className={`${parentClassName}`}>
-            <button className={`bg-primary-500 text-white font-semibold px-6 py-2 rounded-md ${buttonClassName}`}>{text}</button>
+            <button className={`bg-primary-500 text-white font-semibold px-6 py-2 rounded-md ${buttonClassName}`} onClick={onClick}>{text}</button>
         </div>
     )
 }

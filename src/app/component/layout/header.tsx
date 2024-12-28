@@ -12,7 +12,7 @@ const Header = () => {
                    
                 </div>
                 <div className="flex items-center gap-12">
-                <ul className="text-[#0f5e1c] font-semibold font-sans flex gap-12 text-lg">
+                <ul className="text-[#0f5e1c] font-semibold font-sans flex gap-12 text-lg"> 
                         <li className="cursor-pointer">Home</li>
                         <li className="cursor-pointer">Team</li>
                         <li className="cursor-pointer">About</li>

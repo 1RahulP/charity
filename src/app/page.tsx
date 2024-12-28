@@ -4,8 +4,8 @@ import ThemeButton from "./component/layout/theme-button/ThemeButton";
 export default function Home() {
   return (
     <>
-      <div className="relative bg-[#006400]">
-        <Image src={"/jpg/banner.jpg"} alt="banner" width={1850} height={950} className="w-full h-auto opacity-[0.7]" />
+      <div className="relative bg-black">
+        <Image src={"/jpg/banner01.jpeg"} alt="banner" width={1850} height={950} className="w-full max-h-[80vh] object-cover opacity-[0.7]" />
         <div className="absolute top-40 z-[2] text-center w-full">
           <h2 className="sm:text-[42px] font-semibold mb-3 text-white">Welcome to Muslim Community Of India</h2>
           <p className="text-white max-w-[750px] mx-auto mb-5">Where empathy connects with unity. Join us in fostering love, faith, and transformative actions guided by the essence of Islamic giving.</p>

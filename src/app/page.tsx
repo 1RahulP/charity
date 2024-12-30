@@ -212,7 +212,7 @@ const timingArray = [
     endTime:"4:45 am"
   },
   {
-    name:"Jumu'ah",
+    name:"Jumuah",
     startTime:"3:58 am",
     endTime:"4:45 am"
   },

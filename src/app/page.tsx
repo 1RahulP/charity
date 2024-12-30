@@ -128,7 +128,7 @@ export default function Home() {
         <h3 className="font-semibold pb-1 text-2xl text-primary-500 ">Donator Say</h3>
         <span className="block w-20 h-[3px] bg-primary-500 mx-auto"></span>
         </div>
-        <div className="max-w-[600px] mx-auto mt-6 border p-2 pt-12 mt-16 shadow-xl relative rounded-xl">
+        <div className="max-w-[600px] mx-auto border p-2 pt-12 mt-16 shadow-xl relative rounded-xl">
           <Image src={"/jpg/02.png"} alt="image" width={80} height={80} className="rounded-full w-[80px] h-[80px] absolute top-[-40px] p-1 border-2 border-green-500 bg-white left-0 right-0 mx-auto" />
           <h3 className="text-xl font-semibold text-center mb-2">Abu Adam Hassam</h3>
           <p className="text-sm text-center text-gray-400">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi laudantium, qui nam, ducimus, suscipit beatae saepe doloremque illum aut sed sit odit sint rem a exercitationem consectetur."</p>

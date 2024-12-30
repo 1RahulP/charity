@@ -112,7 +112,7 @@ export default function Home() {
             {timingArray?.map((item,index)=>{
               return(
 
-            <div className="grid grid-cols-3 gap-2 py-2 border-b text-sm">
+            <div className="grid grid-cols-3 gap-2 py-2 border-b text-sm" key={index}>
               <p className="text-primary-500 font-semibold">{item?.name}</p>
               <p>{item?.startTime}</p>
               <p>{item?.endTime}</p>

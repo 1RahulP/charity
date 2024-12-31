@@ -1,7 +1,12 @@
+"use client"
 import Image from "next/image";
 import ThemeButton from "./component/theme-button/ThemeButton";
+import React from "react";
+import ModalBox from "./component/modal-box/modal-box";
+import InputField from "./component/input-field/input-field";
 
 export default function Home() {
+  const [popUp, setPopUp] = React.useState(false)
   return (
     <>
       <div className="relative bg-black">
@@ -56,9 +61,20 @@ export default function Home() {
           <h3 className="text-2xl mt-2 text-primary-500">We Need your help.</h3>
           <span className="block w-16 h-[3px] bg-primary-500"></span>
           <p className="text-sm text-gray-500 mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis voluptatum aliquam cumque esse sequi odio recusandae culpa deleniti? Non quasi facere sint possimus nesciunt minus quia harum accusantium enim molestiae obcaecati, error a explicabo veniam, id veritatis dolores minima adipisci. Dicta, exercitationem?</p>
-          <ThemeButton text="Donate Now" buttonClassName={"text-sm !rounded-full mt-4"} />
+          <ThemeButton text="Donate Now" buttonClassName={"text-sm !rounded-full mt-4"} onClick={()=>setPopUp(true)} />
         </div>
-
+            {popUp===true &&
+              <ModalBox onClick={()=>setPopUp(false)}>
+                <h2 className="font-seibold text-center text-lg">Please Enter Your Details</h2>
+                <div className="grid gap-4 mt-6">
+                  <InputField type={"text"} placeholder="Name" />
+                  <InputField type={"number"} placeholder="Phone no." />
+                  <InputField type={"email"} placeholder="Email address" />
+                  <InputField type={"number"} placeholder="Amount" inputClassName={"w-fit"} />
+                </div>
+                <ThemeButton text="Submit" buttonClassName={"w-full mt-6"}  />
+              </ModalBox>
+            }
       </div>
       <div className="max-w-[1150px] mx-auto px-4 py-12">
         <h2 className="font-semibold text-center">Our Expert</h2>

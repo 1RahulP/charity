@@ -21,3 +21,6 @@ body {
 .bg-primary-500{
   background-color: var(--primary-500);
 }
+input[type="number"]::-webkit-inner-spin-button{
+  appearance: none;
+}

@@ -18,8 +18,8 @@ const Team = ()=>{
                     <div className="sm:hidden block">
                     <Image src={"/jpg/02.png"} alt="image" width={750} height={650} className="rounded-bl-[36px] rounded-tr-[36px] shadow-xl border-2 bg-green-100 p-2 border-green-500" />
                 </div>
-                    <p className="text-gray-500 mt-4 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem repellendus explicabo ad, culpa amet repudiandae architecto quam sunt illum mollitia impedit odio at laboriosam similique nemo non! Ducimus ad iure rem perspiciatis rerum.</p>
-                    <p className="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem repellendus explicabo ad, culpa amet repudiandae architecto quam sunt illum mollitia impedit odio at laboriosam similique nemo non! Ducimus ad iure rem perspiciatis rerum.</p>
+                    <p className="text-gray-500 mt-4 mb-2 sm:text-left text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem repellendus explicabo ad, culpa amet repudiandae architecto quam sunt illum mollitia impedit odio at laboriosam similique nemo non! Ducimus ad iure rem perspiciatis rerum.</p>
+                    <p className="text-gray-500 sm:text-left text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem repellendus explicabo ad, culpa amet repudiandae architecto quam sunt illum mollitia impedit odio at laboriosam similique nemo non! Ducimus ad iure rem perspiciatis rerum.</p>
                 </div>
             </div>
             <div className="sm:px-8 px-4 sm:py-16 py-4 grid sm:grid-cols-[1.5fr_1fr] items-center gap-8 max-w-[1250px] mx-auto">
@@ -29,8 +29,8 @@ const Team = ()=>{
                     <div className="sm:hidden block">
                     <Image src={"/jpg/03.jpg"} alt="image" width={750} height={650} className="rounded-bl-[36px] rounded-tr-[36px] shadow-xl border-2 bg-green-100 p-2 border-green-500" />
                 </div>
-                    <p className="text-gray-500 mt-4 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem repellendus explicabo ad, culpa amet repudiandae architecto quam sunt illum mollitia impedit odio at laboriosam similique nemo non! Ducimus ad iure rem perspiciatis rerum.</p>
-                    <p className="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem repellendus explicabo ad, culpa amet repudiandae architecto quam sunt illum mollitia impedit odio at laboriosam similique nemo non! Ducimus ad iure rem perspiciatis rerum.</p>
+                    <p className="text-gray-500 mt-4 mb-2 sm:text-left text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem repellendus explicabo ad, culpa amet repudiandae architecto quam sunt illum mollitia impedit odio at laboriosam similique nemo non! Ducimus ad iure rem perspiciatis rerum.</p>
+                    <p className="text-gray-500 sm:text-left text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem repellendus explicabo ad, culpa amet repudiandae architecto quam sunt illum mollitia impedit odio at laboriosam similique nemo non! Ducimus ad iure rem perspiciatis rerum.</p>
                 </div>
                 <div className="sm:block hidden">
                     <Image src={"/jpg/03.jpg"} alt="image" width={750} height={650} className="rounded-bl-[36px] rounded-tr-[36px] shadow-xl border-2 bg-green-100 p-2 border-green-500" />

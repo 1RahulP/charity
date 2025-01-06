@@ -58,7 +58,7 @@ const Header = () => {
                             <Link href={"#"} onClick={()=>setMenu(false)}>About</Link>
                         </li>
                         <li className="h-fit m-auto">
-                            <Link href={"/contact"} onClick={()=>setMenu(false)}>Contact Us</Link>
+                            <Link href={"/contact"} onClick={handleScrollToContact}>Contact Us</Link>
                         </li>
                     </ul>
                 </div>

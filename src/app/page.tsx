@@ -152,7 +152,7 @@ export default function Home() {
       </div>
       <div className="grid sm:grid-cols-2 items-center gap-8 max-w-[1250px] mx-auto sm:py-16 py-8" id="contact-form">
         <div>
-          <Image src={"/jpg/contact.jpg"} alt="image" width={400} height={400} className="sm:w-[400px] h-auto w-[240px]" />
+          <Image src={"/jpg/contact.jpg"} alt="image" width={400} height={400} className="sm:w-[400px] h-auto w-[150px] mx-auto" />
         </div>
         <div>
           <form className="max-w-[500px] shadow-xl sm:p-6 p-4 rounded-xl sm:mx-0 mx-4">

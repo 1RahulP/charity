@@ -16,6 +16,7 @@ const Header = () => {
         const contactSection = document.getElementById("contact-form");
         if(contactSection){
             contactSection.scrollIntoView({behavior:"smooth"})
+            setMenu(false)
         }
     }
     

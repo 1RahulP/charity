@@ -150,6 +150,23 @@ export default function Home() {
           <p className="text-sm text-center text-gray-400">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi laudantium, qui nam, ducimus, suscipit beatae saepe doloremque illum aut sed sit odit sint rem a exercitationem consectetur."</p>
         </div>
       </div>
+      <div className="grid sm:grid-cols-2 items-center gap-8 max-w-[1250px] mx-auto sm:py-16 py-8" id="contact-form">
+        <div>
+          <Image src={"/jpg/contact.jpg"} alt="image" width={400} height={400} className="sm:w-[400px] h-auto w-[240px]" />
+        </div>
+        <div>
+          <form className="max-w-[500px] shadow-xl sm:p-6 p-4 rounded-xl sm:mx-0 mx-4">
+            <h2 className="mb-6 font-semibold text-2xl text-center">Enter your details</h2>
+            <div className="grid gap-4 ">
+            <InputField type={"text"} placeholder="Full name" />
+            <InputField type={"email"} placeholder="Email" />
+            <InputField type={"number"} placeholder="Mobile no." />
+            <textarea name="message" id="message" className="outline-none border rounded-md px-2 py-1" rows={4}></textarea>
+            <ThemeButton text="Submit" buttonClassName={"w-full mt-2"} />
+            </div>
+          </form>
+        </div>
+      </div>
     </>
   );
 }

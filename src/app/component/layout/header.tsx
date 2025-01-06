@@ -11,12 +11,19 @@ const Header = () => {
     const [menu, setMenu] = React.useState(false)
     const [popUp, setPopUp] = React.useState(false)
     const router = useRouter();
+
+    const handleScrollToContact = ()=>{
+        const contactSection = document.getElementById("contact-form");
+        if(contactSection){
+            contactSection.scrollIntoView({behavior:"smooth"})
+        }
+    }
     
     return (
         <div className="sm:px-12 px-4 py-2 bg-[#ffffffc4] backdrop-blur-[29px] border-b sticky top-0 z-[3] relative">
             <div className="max-w-[1350px] mx-auto flex justify-between items-center">
                 <div className="border rounded-full p-2 border-green-500 bg-white">
-                    <Image src={"/svg/mosque.svg"} alt="mosque" width={52} height={52} className="m-auto sm:w-[52px] sm:h-[52px] w-[32px] h-[32px]" onClick={()=>router.push("/")} />
+                    <Image src={"/svg/mosque.svg"} alt="mosque" width={52} height={52} className="m-auto sm:w-[52px] sm:h-[52px] w-[32px] h-[32px] cursor-pointer" onClick={()=>router.push("/")} />
                 </div>
                 <div>
                    
@@ -26,7 +33,7 @@ const Header = () => {
                         <li className="cursor-pointer" onClick={()=>router.push("/")}>Home</li>
                         <li className="cursor-pointer" onClick={()=>router.push("/team")}>Team</li>
                         <li className="cursor-pointer">About</li>
-                        <li className="cursor-pointer" onClick={()=>router.push("/contact")}>Contact Us</li>
+                        <li className="cursor-pointer" onClick={handleScrollToContact}>Contact Us</li>
                     </ul>
                     <ThemeButton text="Donate" onClick={()=>setPopUp(true)} />
                 </div>

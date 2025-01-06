@@ -57,8 +57,8 @@ const Header = () => {
                         <li className="h-fit m-auto">
                             <Link href={"#"} onClick={()=>setMenu(false)}>About</Link>
                         </li>
-                        <li className="h-fit m-auto">
-                            <Link href={"/contact"} onClick={handleScrollToContact}>Contact Us</Link>
+                        <li className="h-fit m-auto cursor-pointer">
+                            <p onClick={handleScrollToContact}>Contact Us</p>
                         </li>
                     </ul>
                 </div>

@@ -161,7 +161,7 @@ export default function Home() {
             <InputField type={"text"} placeholder="Full name" />
             <InputField type={"email"} placeholder="Email" />
             <InputField type={"number"} placeholder="Mobile no." />
-            <textarea name="message" id="message" className="outline-none border rounded-md px-2 py-1" rows={4}></textarea>
+            <textarea name="message" id="message" className="outline-none border rounded-md px-2 py-1" placeholder="Message" rows={4}></textarea>
             <ThemeButton text="Submit" buttonClassName={"w-full mt-2"} />
             </div>
           </form>
